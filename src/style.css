@@ -1,0 +1,6 @@
+* { margin:0;padding:0;box-sizing:border-box }
+html,body,#root{height:100%;overflow:hidden;background:#000;color:#fff}
+body{cursor:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><text y="35" font-size="40" fill="%23f0f">67</text></svg>')20 20,auto}
+canvas{position:fixed;inset:0;z-index:-2}
+.portal{position:absolute;inset:0;font:900 60vw 'Orbitron';background:linear-gradient(45deg,#a855f7,#ec4899,#a855f7);-webkit-background-clip:text;background-clip:text;color:transparent;opacity:.08;animation:s 40s linear infinite}
+@keyframes s{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
