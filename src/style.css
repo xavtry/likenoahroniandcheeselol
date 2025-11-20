@@ -1,6 +1,141 @@
-* { margin:0;padding:0;box-sizing:border-box }
-html,body,#root{height:100%;overflow:hidden;background:#000;color:#fff}
-body{cursor:url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"><text y="35" font-size="40" fill="%23f0f">67</text></svg>')20 20,auto}
-canvas{position:fixed;inset:0;z-index:-2}
-.portal{position:absolute;inset:0;font:900 60vw 'Orbitron';background:linear-gradient(45deg,#a855f7,#ec4899,#a855f7);-webkit-background-clip:text;background-clip:text;color:transparent;opacity:.08;animation:s 40s linear infinite}
-@keyframes s{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+/* ============================================= */
+/*        THE 67 DIDDY BLUD — GOD MODE CSS       */
+/* ============================================= */
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+/* FULL UNIVERSE CONTROL */
+html, body, #root {
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+  color: #fff;
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64"><text y="55" font-size="60" fill="%23ff00ff" font-family="Orbitron">67</text></svg>') 32 32, auto !important;
+}
+
+/* INSANE MATRIX RAIN CANVAS */
+canvas {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  image-rendering: pixelated;
+}
+
+/* INFINITE SPINNING 67 PORTAL (THE CORE OF REALITY) */
+.portal {
+  position: absolute;
+  inset: -50%;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  font-size: 120vw;
+  text-align: center;
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ff00ff, #ffff00, #ff00ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  opacity: 0.12;
+  pointer-events: none;
+  animation: spin 30s linear infinite, pulse 8s ease-in-out infinite;
+  text-shadow: 0 0 100px #f0f, 0 0 200px #0ff;
+  letter-spacing: -20px;
+}
+
+/* FLOATING 67 GHOSTS FROM ANOTHER DIMENSION */
+.floating-67 {
+  position: absolute;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 900;
+  font-size: 12rem;
+  color: rgba(255, 0, 255, 0.2);
+  text-shadow: 
+    0 0 40px #ff00ff,
+    0 0 80px #ff00ff,
+    0 0 120px #00ffff;
+  pointer-events: none;
+  user-select: none;
+  animation: float 20s linear infinite, hueShift 10s infinite;
+  filter: blur(1px);
+}
+
+/* MAIN 67 — THE GOD TEXT */
+h1 {
+  font-size: 42rem !important;
+  font-weight: 900 !important;
+  line-height: 0.8 !important;
+  background: linear-gradient(45deg, #ff00ff, #00ffff, #ffff00, #ff00ff, #00ff00) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+  text-shadow: 
+    0 0 100px #ff00ff,
+    0 0 200px #00ffff,
+    0 0 300px #ffff00,
+    0 0 400px #ff00ff !important;
+  animation: rainbow 6s linear infinite, megaPulse 3s ease-in-out infinite !important;
+}
+
+/* DIDDY BLUD TITLE — GOATED */
+h2 {
+  font-size: 14rem !important;
+  font-weight: 900 !important;
+  background: linear-gradient(to right, #ff00ff, #00ffff, #ff00ff) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+  text-shadow: 0 0 80px #ff00ff !important;
+  animation: glitch 2s infinite, bounce 4s infinite !important;
+}
+
+/* ASCENSION TEXT */
+p {
+  font-size: 7rem !important;
+  font-family: 'VT323', monospace !important;
+  animation: flash 1.5s infinite !important;
+}
+
+/* BUTTONS FROM THE FUTURE */
+button {
+  font-size: 6rem !important;
+  padding: 2rem 4rem !important;
+  border-radius: 50px !important;
+  font-weight: 900 !important;
+  text-shadow: 0 0 40px #000 !important;
+  box-shadow: 0 0 100px #ff00ff !important;
+  transition: all 0.3s ease !important;
+}
+
+button:hover {
+  transform: scale(1.3) rotate(5deg) !important;
+  box-shadow: 0 0 200px #00ffff !important;
+  filter: hue-rotate(90deg) !important;
+}
+
+/* ANIMATIONS — PURE CHAOS */
+@keyframes spin          { from { transform: rotate(0deg); }   to { transform: rotate(360deg); } }
+@keyframes pulse         { 0%,100% { opacity: 0.12; } 50% { opacity: 0.2; } }
+@keyframes megaPulse     { 0%,100% { transform: scale(1); } 50% { transform: scale(1.08); } }
+@keyframes rainbow       { from { filter: hue-rotate(0deg); } to { filter: hue-rotate(360deg); } }
+@keyframes hueShift      { from { filter: hue-rotate(0deg); } to { filter: hue-rotate(360deg); } }
+@keyframes float         { from { transform: translateY(-200px); } to { transform: translateY(calc(100vh + 200px)); } }
+@keyframes glitch        { 0%,100% { text-shadow: 10px 10px #f0f, -10px -10px #0ff; } 50% { text-shadow: -10px 10px #f0f, 10px -10px #0ff; } }
+@keyframes flash         { 0%,100% { opacity: 1; } 50% { opacity: 0.6; } }
+@keyframes bounce        { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-60px); } }
+
+/* FINAL TOUCH — MAKE IT LOUDER */
+::selection { background: #ff00ff; color: #000; }
+::-webkit-scrollbar { width: 20px; background: #000; }
+::-webkit-scrollbar-thumb { background: #ff00ff; border: 4px solid #000; border-radius: 10px; }
+
+/* 67 IS EVERYWHERE */
+body::before {
+  content: "67 67 67 67 67 67 67 67 67 67";
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+  font-size: 30vw;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: -1;
+  animation: spin 60s linear infinite;
+}
